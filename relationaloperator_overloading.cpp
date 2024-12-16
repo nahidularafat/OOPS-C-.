@@ -52,6 +52,14 @@ class coord{
      {
          cout<<"o1 and o3 are different"<<endl;
      }
+     if(o1&& o2)
+     {
+         cout<<"o1 && o4 are true"<<endl;
+     }
+     else
+     {
+         cout<<"o1 && o4 are false"<<endl;
+     }
 
      if(o1&& o4)
      {
@@ -59,7 +67,7 @@ class coord{
      }
      else
      {
-         cout<<"o1 and o4 are different"<<endl;
+         cout<<"o1 && o4 are false"<<endl;
      }
      return 0;
  }
